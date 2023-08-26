@@ -12,3 +12,7 @@ here is the example
     selector{
         property : value;
     }
+    ex:
+    h1{
+        color : red;
+    }
