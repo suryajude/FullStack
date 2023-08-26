@@ -1,0 +1,16 @@
+Css Syntax:
+1. Selector :
+        It will identify the elements to apply the style , the selector h1 will select all the h1 tag in the html.
+2. Property :
+        It will allow the user to change the aspect of the element, for example the color property change the color of the text.
+3. Value :
+        Value is used to apply or assign a value to a specific property of an element.
+4. Declaration :
+        The declaration consists the property and value, for example,
+        {color: red} => this is an example for the declaration, they were closed by the curlybrases('{}'), and were separated by the colon(':').
+here is the structure of the css
+    selector{
+        property : value;
+    }
+    this is the structure of the css.
+    
