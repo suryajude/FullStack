@@ -1,0 +1,42 @@
+// There are three main type of selectors in Css
+they are :
+    1. Tag selectors
+    2. Class selectors
+    3. Id selectors
+
+1. Tag selectors :
+    This category will select the html tags like h1, p, table, etc ,,,
+    ex:
+    h1{
+        color : red;
+    }
+    p{
+        font-size : 24px;
+    }
+
+2. Class selectors : 
+    Class Selectors select the html element based on their class attribute 
+    class attributes are preceded by a period ('.')
+    many tag can have same class name
+    like, <h1 class="helo"></h1>
+          <p> class="helo"</p>
+
+    for example, the class name is "highlight"
+
+    .highlight{
+        background-color : red;
+    }
+
+3. Id selectors :
+    Id selectors  will select the html element based on their id attribute 
+    Id selectors are preceded by a hash symbol ('#').
+
+    for example:
+
+    #style{
+            color: purple;
+            text-align: center;
+            background-color: bisque;
+            
+        }
+    <p id="style"> These letters are styled by using the id selectorss </p>
