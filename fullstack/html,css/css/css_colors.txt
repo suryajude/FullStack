@@ -1,0 +1,39 @@
+Css Colors: 
+Color :
+    h1{
+
+        background-color : red;
+        color : blue;
+    } //this is normal color
+rgb : 
+      #rgb{
+            color: rgb(25,12,200);
+            background-color: rgb(400, 140,23);
+            text-align: center;
+        }
+      <p id="rgb"> This is colored by rgb values</p>
+Hexa Decimal :
+
+        It has the numbers from 0 - 9 
+        It has alphabets from a to f 
+        example : #FF0000 => red color => RR = FF, GG = 00, BB = 00
+
+        example : 
+
+        #hexadecimal{
+            color: #ff0000;
+            text-align: center;
+        }
+        <p id="hexadecimal">This text is colored by hexadecimal values</p>
+
+hsl : 
+  h  = hue
+  s = saturation  (value in %)
+  l = lightness (value is in %)
+  example : 
+    .sl{
+            color: hsl(128, 75%, 53%);
+            background-color:hsl(0, 28%, 9%);
+            text-align: center;
+        }
+    <p class="sl">This is colored by the hsl </p>

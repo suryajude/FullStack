@@ -16,3 +16,6 @@ here is the example
     h1{
         color : red;
     }
+
+the comments: the comment that which we use in this css is 
+/* this is the comment*/ => this will only available in <style></style>

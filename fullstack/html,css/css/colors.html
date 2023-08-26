@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colors in CSS</title>
+    </head>
+    <style>
+        .color{
+            color: white;
+            background-color: blue;
+            text-align: center;
+        }
+        #rgb{
+            color: rgb(25,12,200);
+            background-color: rgb(400, 140,23);
+            text-align: center;
+        }
+        #hexadecimal{
+            color: #ff0000;
+            text-align: center;
+        }
+        .sl{
+           color: hsl(122, 78%, 37%);
+           text-align: center;
+        }
+
+        .body{
+            background-color: rgb(0,40,70);
+        }
+    </style>
+    <body class="body">
+       <p class="color"> This is Colored by the color property and background-color property</p>
+       <p id="rgb"> This is colored by rgb values</p>
+       <p id="hexadecimal">This text is colored by hexadecimal values</p>
+       <p class="sl">This is colored by the hsl </p>
+    </body>
+</html>
