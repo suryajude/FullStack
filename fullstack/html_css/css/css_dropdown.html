@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css DropDown</title>
+    </head>
+    <style>
+        
+        .dropdown-conten{
+            display: none;
+            position: absolute;
+            background-color: red;
+            min-width: 100px;
+            padding: auto;
+            z-index: 1;
+            
+        }
+        
+        .dropdown:hover .dropdown-conten{
+            display: block;
+        }
+
+        .before{
+            display: none;
+            position: absolute;
+            background-color: red;
+            min-width: 100px;
+            padding: auto;
+            z-index: -1;
+        }
+        .a:hover .before {
+            color: green;
+            display: flex;
+            
+            
+        }
+    </style>
+    <body>
+        <div class="dropdown">
+            <span>Hover over me</span>
+            <div class="dropdown-conten">
+                <p>Helo World!</p>
+                <p>click Me</p>
+                <p class="a">Helo I'm here</p>
+                <div class="before">
+                 <p> Yeah</p>
+                 <p> Yeah</p>
+                </div>
+            </div>
+            
+       
+        </div>
+
+    </body>
+</html>
