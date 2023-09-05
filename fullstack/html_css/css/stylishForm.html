@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LOGIN
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <style>
+        body{
+            background-color: black;
+        }
+        .title{
+            color: white;
+            text-align: center;
+        }
+        #icon{
+            margin-top: 80px;
+            font-size: 70px;
+            color: green;  
+        }
+        div{
+            background-color: green;
+            
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+        input[type=text]{
+            border-radius: 33px;
+            width: 100%;
+            padding: 20px 12px;
+            border: 12px;
+            box-sizing: border-box;
+        }
+        input[type=password]{
+            width: 100%;
+            padding: 20px 12px;
+            border: 12px;
+        }
+        input[type=submit]:hover{
+            width: 100%;
+            background-color: blueviolet;
+        }
+        input[type=submit]{
+            border-radius: 30px;
+            padding: 34px;
+            width: 100%;
+            color: white;
+            background-color: skyblue;
+        }
+
+    </style>
+    <body>
+        <center>
+            <i class="glyphicon glyphicon-user" id="icon" ></i>
+        </center>
+        <h3 class="title">Please enter your details</h3>
+        <div class="login">
+            <form action="/">
+                <label for="mail">Mail ID :</label>
+                <input type="text" placeholder="Please enter your Mail ID"> 
+                <label for="username">User Name :</label>
+                <input type="text" placeholder="Please enter your UserName"> 
+                <label for="passWord">PassCode :</label>
+                <input type="password" placeholder="enter your PassCode">
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+    </body>
+</html>
