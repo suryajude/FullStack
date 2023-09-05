@@ -1,0 +1,13 @@
+Image Sprites :
+    It is a technique allow us to use a single image image to display multiple graphics or icons on a web page.
+    by combining multiple images into a single file, you can reduce the number of http requests to load a page,which can improve page load items.
+
+To create a css image sprite, you first need to combine the individual images into a single file using an image editing 
+tool like photoshop or GIMP. Then, you can use CSS to display the specific section of the image that you want to show for each icon or graphics.
+
+CSS Attributes Selectors :
+    CSS attribute selectors allow you to select the elements based on the values of their attributes.
+
+CSS Counters :
+    It allow you to automatically number or label elements on web page. For example, you can use counters to number the headings in an article or to add labels to a list of items.
+    
