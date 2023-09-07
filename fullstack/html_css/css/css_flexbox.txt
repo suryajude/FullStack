@@ -1,0 +1,26 @@
+Css Flexbox :
+    One dimensonal layout
+    It is used to design a element which is inside of the container
+    we can align it horizontal or vertical
+
+
+Grid:
+    It is 2 dimensonal layout
+    it has columns and rows 
+
+
+CSS animations and Transitions :
+    CSS animatoins and Transitions are two techniques used to create dynamic and engaging web designs.
+    They both are similar and how they differ is , how they create movement and change on web pages.
+
+CSS animations :
+    we can create keyframes that defines how an element should move or change over time.
+    Duration , the repeating.
+
+CSS Transitions :
+    It allows in smooth and gradual change in an element's property, such as it's color, size and position.
+
+CSS Preprocessors :
+    It is a tool, that extend the functionality of css by providing additional features and syntax, making it easier and more efficient
+    to write and manage more efficeient codes.
+    It allow us to write css code more programatically, using variables and mixins.
