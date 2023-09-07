@@ -1,0 +1,30 @@
+
+Absolute Units :
+px = pixels
+in = inches
+cm = centimeters
+pt - points 
+
+
+Relative Units :
+% = size of the parent element
+
+
+Font Units: 
+it is used to change the size of the fonts
+em - font size of the element parent
+
+View Port Units:
+
+vw -view point width
+vh  = view point height
+
+Time Units:
+It is used to manage the time of the css animations
+s - seconnds
+ms - milliseconds
+
+
+The highest priority is the class (.)
+The second priority is the id(#)
+The lowest priority is the tag selector.
