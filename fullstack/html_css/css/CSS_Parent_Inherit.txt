@@ -1,0 +1,26 @@
+CSS Parent Inherit:
+    It is used to set a property's value as same as the parent element.
+    not it's owm value.
+    KeyWord = Inherit
+
+CSS Box Shadow :
+    It allow us to  add a drop Shadow effect for an element.
+    Include , horizontal and vertical offset, blue radius, spread radius and color.
+
+Clip Property :
+    It is used to clip or crop an element's content to a shape.
+    It takes a rectangular area as its value, defined by the rect() function.and can be used to create intresting effect such non-rectangular shape, image, masks and more.
+
+CSS Media Query :
+    It is used to customize the elements characters according to it's view by the screen size.
+    It include the screen size and screen resolution.
+
+CSS cascading :
+    It is a process used by the browser. Which is used to determines which styles to apply to an element when there are multiple css rules to apply.
+    Rules :
+    selector Specificity : 
+        To find the selector
+    Source Order :
+        This refers to the order in which the css rules are defined in the style sheet.
+    Inheritence :
+    
