@@ -1,0 +1,21 @@
+Bootstrap : 
+    IT is a web developement framework.
+    built on html, css and js.
+    supports responsive and mobile first webpages.
+    it provides various web designs and components.
+
+Advantages:
+    Easy .
+    responsive grid.
+    Browser compotability.
+    Bootstrap Image system.
+    Bootstrap Documentation.
+
+Limitations : 
+
+    It needs heavy customization and style override
+    Large number of functions means large size fils
+    Website load time can be incresed
+    Bootstrap styles are relativelt bulk.
+
+    
