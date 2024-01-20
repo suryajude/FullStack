@@ -50,6 +50,7 @@ places[6] = "Peter";
 places[7] = "Andrew";
 places[8] = "Matthew";
 places[9] = "Luke";
+places[10] = "Adam";
 
 places.forEach((value,index)=>{
     console.log("Index "+(index +1) +" = "+ value);
@@ -59,4 +60,31 @@ places.forEach((value,index)=>{
 const multiple_array = [name_list,names,places];
 console.log(multiple_array);
 
+
+/**
+ * Arrays can be sorted in both ascending order and in descending order.
+ */
+
+console.log(places.sort()) // we can sort an array in this sort function, which is an inbuilt function 
+console.log(places.length) // we can also increase the size of an array likw this 
+
+// numberic array
+const number_array  = [23,43,56,67,89,12,1,45,67,8,90,0,2,1,11,23,22];
+
+const ascending_array = number_array.sort((a,b)=>{return a-b});
+const descending_array = number_array.sort((a,b)=>{return b-a});
+console.log("Ascending order : "+ ascending_array);
+console.log("descending order : "+descending_array);
+// we can also reverse an array using reverse keyword
+places.reverse();
+console.log("Reverse order : "+ places);
+
+
+// concat is in the array is like this :
+names.concat(name_list);
+var concat_array = names.concat(name_list);
+console.log(concat_array);
+
+
+// the website => w3schools.com/js_array_ sort.asp
 
